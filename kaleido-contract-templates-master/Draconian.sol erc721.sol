@@ -6,7 +6,11 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+<<<<<<< HEAD
 @custom:security-contact whitefeather@whitebuffalotribe.onmicrosoft.com
+=======
+/// @custom:security-contact whitefeather@whitebuffalotribe.onmicrosoft.com
+>>>>>>> a9572f961df5129f66c511e3ddea03bd765d83f4
 contract Draconian is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
     constructor() ERC721("Draconian", "DGN") {}
 
